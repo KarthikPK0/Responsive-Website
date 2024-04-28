@@ -1,0 +1,243 @@
+.sec-1{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    margin-bottom: 25px;
+}
+
+.s1box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1h2{ 
+     font-size: 1.6em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#161C2D; 
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+p
+{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    color:#161C2D;
+    text-align: center;
+    padding: 1em 0 1.5em 0;
+}
+
+button
+{
+    margin-bottom: 5em;
+}
+
+.homeImg
+{
+    max-width: 100%;
+    height:400px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hButton{
+  margin-right: 20px;
+  padding: 10px;
+  background-color:#473BF0 ;
+  border: none;
+  padding:.9em 1.5em;
+  border-radius: 8px;  
+}
+
+.hButton a{
+    font-family: "Montserrat", sans-serif;
+    color:#FFFFFF ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.Btn2{
+    background-color: #F4F7FA;
+  
+}
+
+.Btn2 a{
+    color: #473BF0;
+}
+
+.Btn2 a:hover{
+    text-decoration: underline solid 1px #473BF0  ; 
+}
+
+.s1r1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    padding-top: 50px;
+}
+
+.symbol{
+ font-size: 30px;  
+ color: #68D585;
+}
+
+.s1col div{
+    padding:10px 0 15px 0 ;
+}
+
+.s1col h5{
+    font-size: 1.1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#161C2D; 
+    padding:5px 0 5px 0 ;
+    cursor: pointer;
+}
+
+
+.s1col p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    color:#161C2D;
+}
+
+
+@media(max-width:768px)
+{
+    h2{ 
+        font-size: 1.7em;
+       padding: 1em 0 0 0;
+   }
+
+   p
+{
+    font-size: .7em;
+    padding: 1em 0 1.5em 0;
+}
+
+
+
+
+.homeImg
+{
+    max-width: 100%;
+    height:330px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hButton a i{
+    margin-left: 20px;
+     }
+
+.hButton{
+  margin-right: 20px;
+  padding: 10px;
+  background-color:#473BF0 ;
+  border: none;
+  padding:.7em 1em; 
+}
+
+.hButton a{
+    font-family: "Montserrat", sans-serif;
+    color:#FFFFFF ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8em;
+}
+.Btn2{
+    background-color: #F4F7FA;
+  
+}
+
+.Btn2 a{
+    color: #473BF0;
+}
+
+.Btn2 a:hover{
+    text-decoration: underline solid 1px #473BF0  ; 
+}
+
+
+}
+
+@media(max-width:480px)
+{
+
+    
+    h2{ 
+        font-size: 1.7em;
+       padding: 1em 0 0 0;
+   }
+
+   p
+{
+    font-size: .7em;
+    padding: 1em 0 1.5em 0;
+}
+
+
+
+
+.homeImg
+{
+    max-width: 100%;
+    height:330px ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.hButton a i{
+    margin-left: 20px;
+     }
+
+.hButton{
+  margin-right: 20px;
+  padding: 10px;
+  background-color:#473BF0 ;
+  border: none;
+  padding:.7em 1em; 
+}
+
+.hButton a{
+    font-family: "Montserrat", sans-serif;
+    color:#FFFFFF ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8em;
+}
+.Btn2{
+    background-color: #F4F7FA;
+  
+}
+
+.Btn2 a{
+    color: #473BF0;
+}
+
+.Btn2 a:hover{
+text-decoration: underline solid 1px #473BF0  ; 
+}
+
+
+
+
+}
+

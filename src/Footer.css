@@ -1,0 +1,109 @@
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3em 8em 3em 8em;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.col1 h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #161C2D;  
+   cursor: default; 
+}
+
+.col1 p{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    color:#161C2D;
+}
+
+.col1 div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    gap: 2em;
+
+}
+
+
+.footerUl{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    gap: .5em;
+}
+
+.footerUl li a{
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    color: #161C2D; 
+}
+
+.footerUl li a:hover{
+    text-decoration: underline solid 1px #161C2D ;
+}
+
+.icon{
+    font-size: 20px;
+    color: black;
+}
+
+
+.fa-instagram:hover
+{
+color:#C13584;
+}
+
+.fa-twitter:hover
+{
+    color:#1DA1F2;
+}
+   
+.fa-facebook:hover
+{
+    color:#1877F2;
+}
+.fa-linkedin:hover{
+    color: #0e76a8;
+}
+
+.fa-github:hover{
+    color: #171515;
+}
+
+.col h5{
+    font-family: "Rubik", sans-serif;
+    font-size: .9em;
+    font-weight: 300;
+    color: #161C2D; 
+    padding: 1em 0 1em 0; 
+    cursor: default;
+}
+
+@media(max-width:768px){
+    .row{
+        padding: 3em 4em 3em 4em;
+    }
+
+    .footerUl li a{
+        padding: 0 2px 0 2px ;
+    }
+
+}

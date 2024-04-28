@@ -1,0 +1,276 @@
+.h4container{
+    background-color: #161C2D;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+
+.h4r1{
+    display: flex;
+    flex-direction: column; 
+}
+.h4r1 h3{
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#FFFFFF;
+    text-align: center;
+}
+
+.h4r1 p{
+    color:#FFFFFF;  
+    padding:18px 0 40px 0;
+    line-height: 24px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 16rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    ;
+  
+}
+
+.item div{
+    color: #473BF0;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    background-color: #979797;
+    padding: 2px 8px 2px 8px;
+    border-radius: 10px;
+    margin-top:1.8em;   
+}
+
+.item span{
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#161C2D; 
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.item p{
+    padding: 8px 0 20px 0;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+.flexButton{
+    padding: 10px;
+    background-color:#473BF0 ;
+    border: none;
+    padding:.9em 1.5em;
+    border-radius: 8px; 
+    margin-top: 18px;    
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.flexButton a{
+    font-family: "Montserrat", sans-serif;
+    color:#FFFFFF ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.flexButton a:hover{
+    text-decoration: underline solid 1px #FFFFFF ;
+  }
+
+.flex-container2
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 80px;
+    width: 1000px;
+    gap: 3em;
+
+}
+
+.card{
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.card1{
+    position: fixed;
+}
+
+
+.fa-question{
+    color:#68D585 ;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.learnmore{
+    color:#68D585 ;
+    font-size: .9em;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    position: absolute;
+    text-decoration: none;
+
+}
+
+.learnmore:hover{
+    text-decoration: underline solid 1px #68D585 ;
+  }
+
+.learn{
+    margin-left: 8px;
+}
+
+.card h5{
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+.card p{
+    color: #FFFFFF;
+    font-weight: 300;
+    text-align: left;
+    line-height: 22px;
+    
+}
+
+.boxcontent
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.finalpara{
+    text-align: center;
+    font-size: .9em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.finalspan{
+    color: #68D585;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.finalspan:hover{
+    text-decoration: underline solid 1px #68D585 ;
+}
+
+.h4r2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10.5em;
+    padding-top: 70px;
+    padding-bottom:35px ;
+    flex-wrap: wrap;
+}
+
+.h4r2col h3{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color:#161C2D;
+}
+
+.h4r2col p{
+    text-align: left;
+    line-height: 22px;
+}
+
+.finalButtonB
+{
+    margin-right: 20px;
+    padding: 10px;
+    background-color:#473BF0 ;
+    border: none;
+    padding:.9em 1.5em;
+    border-radius: 8px;   
+}
+
+.finalButtonB a{
+    font-family: "Montserrat", sans-serif;
+    color:#FFFFFF ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.finalButtonB a:hover{
+    text-decoration: underline solid 1px #FFFFFF ;
+  }
+
+  .finalButtonA
+{
+    margin-right: 20px;
+    padding: 10px;
+    background-color:#F4F7FA ;
+    border: none;
+    padding:.9em 1.5em;
+    border-radius: 8px;   
+}
+
+.finalButtonA a{
+    font-family: "Montserrat", sans-serif;
+    color:#473BF0 ;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.finalButtonA a:hover{
+    text-decoration: underline solid 1px #473BF0  ;
+  }
+
+  .finalBtn{
+ margin-left: 25px;
+  }
+
+  @media(max-width:768px) {
+    .h4r2{
+        gap: 2.5em;
+    }
+    
+  }
+
+
+
+
+  

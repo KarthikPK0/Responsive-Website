@@ -1,0 +1,59 @@
+.hero3Container{
+    width: 100%;
+    height: auto;
+   
+}
+
+.h3r1{
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 5.7em;
+padding: 3.5em 0 3.5em 0;
+flex-wrap: wrap;
+}
+
+.h3r1col{
+display: flex;
+flex-direction: row;
+align-items: center;
+gap: 1em;
+}
+.h3r1col p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.h3r1col span{
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#161C2D; 
+}
+
+.h3r2{
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 3em 0;
+}
+.h3r2 h3{
+    font-size: 1.8em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color:#161C2D;
+    text-align: center;
+}
+
+@media(max-width:768px){
+    .h3r2 h3{
+        font-size: 1.7em;
+    }
+    .h3r2 p {
+        font-size:.7em ;
+    }
+    
+
+}
